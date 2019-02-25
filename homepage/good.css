@@ -1,0 +1,49 @@
+.header{height: 200px;
+background-image: linear-gradient(30deg, #4286f4, #689cf2);
+background-color: red;
+text-align:center;
+color:grey;
+font-size:30px;
+line-height: 200px
+}
+
+/* Taken from w3school link:https://www.w3schools.com/css/css_navbar.asp*/
+/*modified to work in this situation*/
+.topnav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav li{
+  float: left;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+/* End of snippet taken from W3school*/
+.sidebar{
+width:25%;
+top: 230;
+right: 10px;
+position:absolute;
+background-color:#89a0c4;
+}
+.sidebar li{margin: 10px 0;
+}
+.sidebar h1{text-align:center;}
+
+.content{
+width:70%;
+top: 230;
+left: 10px;
+position:absolute;
+}
+
