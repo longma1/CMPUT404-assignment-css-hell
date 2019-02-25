@@ -1,6 +1,5 @@
 .header{height: 200px;
-background-image: linear-gradient(30deg, #4286f4, #aabedd);
-background-color: red;
+background-color: blue;
 text-align:center;
 color:grey;
 font-size:30px;
@@ -14,16 +13,18 @@ line-height: 200px
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: blue;
 }
 
 .topnav li{
   float: left;
+  background-color:yellow;
+  margin: 0 3px 0 3px;
 }
 
 .topnav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -34,8 +35,7 @@ width:25%;
 top: 230;
 right: 10px;
 position:absolute;
-background-color:#89a0c4;
-height:100%
+background-color:yellow;
 }
 .sidebar li{margin: 10px 0;
 }
@@ -50,5 +50,6 @@ position:absolute;
 img{float:left;
 padding:5px;
 max-width:20%;
-max-height:20%;
+max-height:20%
 }
+h1{font-style: oblique;}
