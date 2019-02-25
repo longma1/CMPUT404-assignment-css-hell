@@ -27,3 +27,6 @@ Modifications to the Gutenberg documents
 Tried to modify as little as possible other than removing the header css
 which was replaced with a link to the gutenberg.css file instead
 also modified the path of images so that they are shown.
+
+I did not collaborate with anyone but have taken how to do a navigation bar
+from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
